@@ -1,11 +1,15 @@
-<div align="center">
+# MotionAI
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Browser-only, BYOK (Bring Your Own Key) AI motion-graphics video workspace built with Next.js App Router, Tailwind CSS, IndexedDB (`idb`), and Remotion.
 
-  <h1>Built with AI Studio</h2>
+## Routes
+- `/` — Product shell (onboarding, project management, chat workspace, stage panel, and settings).
+- `/lab` — Internal Phase 0 feasibility harness (WebCodecs environment check, Remotion Player preview, MP4 export, Gemini REST test, and in-browser TSX compilation).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Local Development
+```bash
+npm install
+npm run dev
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+All API keys, preferences, projects, and chat messages stay in the user's browser (`localStorage` and `IndexedDB`). No server-side API keys or backend storage are used.

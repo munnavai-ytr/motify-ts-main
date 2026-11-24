@@ -1,0 +1,6 @@
+{
+  "name": "Phase 0 Motion Feasibility Lab",
+  "description": "Browser-only feasibility test for AI-generated Remotion motion graphics: WebCodecs environment check, Player preview, MP4 export, Gemini REST API, and in-browser TSX compilation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
